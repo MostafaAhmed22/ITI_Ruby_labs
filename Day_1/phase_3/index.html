@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LifeTrack Dashboard</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background: #eef3ff;
+        color: #1f2937;
+      }
+      .card {
+        border: none;
+        border-radius: 1rem;
+      }
+      .event-card {
+        margin-bottom: 1rem;
+        border-left: 6px solid;
+        box-shadow: 0 8px 20px rgba(15, 23, 42, 0.06);
+      }
+      .event-work {
+        border-left-color: #2563eb;
+      }
+      .event-study {
+        border-left-color: #7c3aed;
+      }
+      .event-exercise {
+        border-left-color: #16a34a;
+      }
+      .event-meal {
+        border-left-color: #f59e0b;
+      }
+      .badge {
+        background-color: #64748b;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h1 class="mb-4">LifeTrack Dashboard</h1>
+      <div class="row">
+        <div class="col-12">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Recent Events</h5>
+              <hr />
+              <div class="card event-card event-meal">
+                <div class="card-body py-2">
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div>
+                      <strong class="text-uppercase">MEAL</strong> &mdash; Eat
+                      launch
+                    </div>
+                    <div class="text-muted small">
+                      2026-06-04 20:43 &bull;
+                      <span class="badge bg-secondary">20 min</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card event-card event-work">
+                <div class="card-body py-2">
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div>
+                      <strong class="text-uppercase">WORK</strong> &mdash;
+                      Worked in ITI
+                    </div>
+                    <div class="text-muted small">
+                      2026-06-04 20:42 &bull;
+                      <span class="badge bg-secondary">50 min</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card event-card event-study">
+                <div class="card-body py-2">
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div>
+                      <strong class="text-uppercase">STUDY</strong> &mdash;
+                      Studied ruby in ITI
+                    </div>
+                    <div class="text-muted small">
+                      2026-06-04 20:41 &bull;
+                      <span class="badge bg-secondary">60 min</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card event-card event-meal">
+                <div class="card-body py-2">
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div>
+                      <strong class="text-uppercase">MEAL</strong> &mdash; Lunch
+                    </div>
+                    <div class="text-muted small">
+                      2026-06-04 20:36 &bull;
+                      <span class="badge bg-secondary">30 min</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card event-card event-work">
+                <div class="card-body py-2">
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div>
+                      <strong class="text-uppercase">WORK</strong> &mdash;
+                      Testing work
+                    </div>
+                    <div class="text-muted small">
+                      2026-06-04 20:36 &bull;
+                      <span class="badge bg-secondary">60 min</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
